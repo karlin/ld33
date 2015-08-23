@@ -19,10 +19,9 @@ depends:
 
 .PHONY: run
 run:
-	$(NODE) ./node_modules/gulp/bin/gulp.js watch &
-	cp samples/*.json dist
-	open http://localhost:8080/webpack-dev-server/index.html
-	./node_modules/.bin/webpack-dev-server --content-base dist --hot
+	$(NODE) ./node_modules/gulp/bin/gulp.js && $(NODE) ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --content-base dist
+	echo "Open a web browser pointing to:"
+	echo "http://localhost:8080/webpack-dev-server/"
 
 # CLEAN ########################################################################
 

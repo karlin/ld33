@@ -1,2 +1,2 @@
 import './main.css';
-import * from '../lib/index';
+import '../lib/index';

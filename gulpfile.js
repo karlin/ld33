@@ -20,7 +20,8 @@ gulp.task('compile-js', function() {
 
 gulp.task('copy', function() {
   return gulp.src([
-      'app/*.html'
+      'app/*.html',
+      'vendor/*.js'
     ])
     .pipe(gulp.dest('dist'));
 });

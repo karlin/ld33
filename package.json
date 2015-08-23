@@ -28,9 +28,5 @@
   },
   "private": true,
   "dependencies": {
-    "jquery": "^2.1.4",
-    "lodash": "^3.10.0",
-    "processing-js": "^1.4.16",
-    "toxiclibsjs": "^0.2.7"
   }
 }
