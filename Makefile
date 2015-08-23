@@ -19,9 +19,13 @@ depends:
 
 .PHONY: run
 run:
+	@echo "====="
+	@echo "Open a web browser pointing to:"
+	@echo "http://localhost:8080/webpack-dev-server/ to hack or,"
+	@echo "http://localhost:8080 to play"
+	@echo "====="
+
 	$(NODE) ./node_modules/gulp/bin/gulp.js && $(NODE) ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --content-base dist
-	echo "Open a web browser pointing to:"
-	echo "http://localhost:8080/webpack-dev-server/"
 
 # CLEAN ########################################################################
 
