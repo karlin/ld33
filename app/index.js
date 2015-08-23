@@ -1,2 +1,2 @@
 import './main.css';
-import * as report from '../lib/index';
+import * from '../lib/index';
