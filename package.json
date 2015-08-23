@@ -1,0 +1,36 @@
+{
+  "name": "ld33",
+  "version": "0.0.0",
+  "description": "Ludum Dare 33 Compo entry",
+  "homepage": "",
+  "author": {
+    "name": "Karlin Fox",
+    "email": "",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "keywords": [],
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.16.0",
+    "expose-loader": "^0.7.0",
+    "gulp": "^3.6.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-webpack": "^1.5.0",
+    "stream-combiner2": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.0",
+    "processing-js": "^1.4.16",
+    "toxiclibsjs": "^0.2.7"
+  }
+}
