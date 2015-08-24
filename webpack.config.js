@@ -3,13 +3,13 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    app: ['./app/index.js'],
+    app: ['webpack/hot/dev-server','./app/index.js'],
   },
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js'
   },
-  plugins: [new webpack.optimize.UglifyJsPlugin()],
+  // plugins: [new webpack.optimize.UglifyJsPlugin()],
   module: {
     loaders: [
       { test: /\.css$/, loader: 'style!css' },
