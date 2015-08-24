@@ -9,7 +9,7 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js'
   },
-  // plugins: [new webpack.optimize.UglifyJsPlugin()],
+  plugins: [new webpack.optimize.UglifyJsPlugin()],
   module: {
     loaders: [
       { test: /\.css$/, loader: 'style!css' },
