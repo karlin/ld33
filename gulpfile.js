@@ -21,6 +21,7 @@ gulp.task('compile-js', function() {
 gulp.task('copy', function() {
   return gulp.src([
       'app/*.html',
+      'app/*.mp3',
       'vendor/*.js'
     ])
     .pipe(gulp.dest('dist'));
